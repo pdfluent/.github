@@ -17,10 +17,10 @@ A privacy-first desktop PDF editor built with [Tauri](https://tauri.app/), [Pdfi
 | Repo | Description |
 |------|-------------|
 | [pdfluent](https://github.com/pdfluent/pdfluent) | Desktop app (Tauri + React + Pdfium + LibPDF) |
-| [pdfluent.dev](https://github.com/pdfluent/pdfluent.dev) | Website and documentation |
+| [pdfluent.com](https://github.com/pdfluent/pdfluent.com) | Website and documentation |
 | [.github](https://github.com/pdfluent/.github) | Community health files |
 
 ## Links
 
-- Website: [pdfluent.dev](https://pdfluent.dev) (coming soon)
+- Website: [pdfluent.com](https://pdfluent.com) (coming soon)
 - License: [AGPL-3.0](https://github.com/pdfluent/pdfluent/blob/main/LICENSE)
