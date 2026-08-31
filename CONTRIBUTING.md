@@ -1,56 +1,54 @@
 # Contributing to PDFluent
 
-Thanks for your interest in contributing to PDFluent. Here's how to get started.
+Thanks for your interest in PDFluent.
 
-## Getting started
-
-1. Fork the repository
-2. Clone your fork
-3. Create a branch for your change
-4. Make your changes
-5. Run tests: `cargo test` (Rust) and `npm test` (frontend)
-6. Open a pull request
-
-## Development setup
-
-PDFluent uses Tauri v2 with a React + TypeScript frontend and a Rust backend.
-
-**Prerequisites:**
-- Rust (stable)
-- Node.js 20+
-- Platform-specific Tauri dependencies (see [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/))
-
-**Run locally:**
-```bash
-npm install
-npm run tauri dev
-```
-
-## Code style
-
-- Rust: follow `cargo clippy` suggestions
-- TypeScript: ESLint config in the repo
-- Commits: use conventional commits (`feat:`, `fix:`, `docs:`, etc.)
-
-## Pull requests
-
-- Keep PRs focused on a single change
-- Include tests where applicable
-- Update documentation if you change user-facing behavior
-- All source files must include the SPDX license header:
-  ```
-  // SPDX-License-Identifier: AGPL-3.0-or-later
-  // Copyright (c) 2026 PDFluent Contributors
-  ```
+This is the default guide for PDFluent repositories. A repository that ships its
+own `CONTRIBUTING.md` overrides this one — read that one instead.
 
 ## Reporting bugs
 
-Open an issue on GitHub with:
-- Steps to reproduce
-- Expected behavior
-- Actual behavior
-- OS and PDFluent version
+Open an issue in the repository the problem is in:
 
-## License
+- [pdfluent/pdfluent](https://github.com/pdfluent/pdfluent) — the desktop editor
+- [pdfluent/pdfluent-sdk](https://github.com/pdfluent/pdfluent-sdk) — the SDK and its documentation
+- [pdfluent/examples](https://github.com/pdfluent/examples) — the runnable examples
 
-By contributing, you agree that your contributions will be licensed under AGPL-3.0.
+Include steps to reproduce, what you expected, what happened instead, your
+operating system, and the PDFluent version. A PDF that triggers the problem is
+worth more than any description — attach one only if you are free to share it.
+
+## Reporting a security problem
+
+Do not open a public issue. Follow
+[SECURITY.md](https://github.com/pdfluent/.github/blob/main/SECURITY.md).
+
+## Contributing code
+
+**Ask before you write.** PDFluent does not accept code under a blanket inbound
+licence, and this guide grants none. The licensing of the SDK and of the editor
+differs, and the SDK's is in the middle of a change; accepting code on standing
+terms now would fix terms that are not settled yet.
+
+So: open an issue describing the change you have in mind, or write to
+license@pdfluent.com, and we will sort out the arrangement before you start. If
+a pull request lands without that conversation, it may have to be closed
+unmerged — which costs you the work, not us. That is the only reason this
+section is at the top of the process instead of the bottom.
+
+## Once an arrangement is in place
+
+- Rust: follow `cargo clippy`
+- TypeScript: the ESLint config in the repository you are working in
+- Commits: conventional commits (`feat:`, `fix:`, `docs:`, …)
+- Keep a pull request to one change
+- Add tests where the change can be tested, and update the documentation if you
+  change behaviour anyone can see
+- File headers: copy the header the surrounding files already carry. It differs
+  per repository, and it is not yours to pick.
+
+Build instructions live in each repository's `README`.
+
+## Licence
+
+Every PDFluent repository states its own terms in its `LICENSE` or `LICENSE.md`.
+Nothing in this file grants a licence, and nothing in it takes one.
