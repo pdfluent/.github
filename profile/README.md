@@ -12,6 +12,8 @@ Free for everyone, including commercial use. No account, no upload, no subscript
 
 ## The SDK
 
+AGPL-3.0, and the free build is the complete product: no licence key, no activation call, no tier, every feature in every build. If you cannot accept the copyleft obligation, a commercial licence is sold yearly and self-service — Commercial per organisation, OEM Startup and OEM per product, and Priority support as an add-on.
+
 A modern alternative to iText, Apryse, and PDFBox for developers building their own PDF tooling. The core engine has no JVM or C++ dependency; if you use the Java binding, that binding itself is native, not a JVM reimplementation of the engine.
 
 ```toml
@@ -44,7 +46,7 @@ println!("{}", doc.extract_text()?);
 |---|---|
 | Text extraction | Production |
 | AcroForm fill and flatten | Production |
-| Digital signatures (PAdES B-LT/B-LTA) | Production |
+| Digital signatures (PAdES B-B / B-T / B-LT) | Production |
 | PDF/A validation and conversion | Production |
 | Content redaction | Production |
 | XFA form flattening | Beta |
@@ -55,8 +57,7 @@ println!("{}", doc.extract_text()?);
 |---|---|
 | Documentation | [pdfluent.com/docs](https://pdfluent.com/docs) |
 | Examples | [`pdfluent/examples`](https://github.com/pdfluent/examples): Rust, Python, Node.js, WASM |
-| SDK pricing | [pdfluent.com/sdk/pricing](https://pdfluent.com/sdk/pricing) |
-| Trial | [pdfluent.com/trial](https://pdfluent.com/trial): 30-day license key |
+| SDK licence | AGPL-3.0, or a commercial licence sold yearly and self-service at [pdfluent.com/sdk/pricing](https://pdfluent.com/sdk/pricing) |
 | Changelog | [pdfluent.com/changelog](https://pdfluent.com/changelog) |
 
 ---
