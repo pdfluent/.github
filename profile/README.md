@@ -19,7 +19,7 @@ A modern alternative to iText, Apryse, and PDFBox for developers building their 
 ```toml
 # Cargo.toml
 [dependencies]
-pdfluent = "1.0.0-beta.17"
+pdfluent = "1.0.0"
 ```
 
 ```rust
@@ -56,9 +56,28 @@ println!("{}", doc.extract_text()?);
 | | |
 |---|---|
 | Documentation | [pdfluent.com/docs](https://pdfluent.com/docs) |
+| SDK source | [`pdfluent/pdfluent-sdk`](https://github.com/pdfluent/pdfluent-sdk) |
 | Examples | [`pdfluent/examples`](https://github.com/pdfluent/examples): Rust, Python, Node.js, WASM |
 | SDK licence | AGPL-3.0, or a commercial licence sold yearly and self-service at [pdfluent.com/sdk/pricing](https://pdfluent.com/sdk/pricing) |
 | Changelog | [pdfluent.com/changelog](https://pdfluent.com/changelog) |
+
+The PDF rendering path builds on [`hayro`](https://github.com/pdfluent/hayro),
+Laurenz Stampfl's pure-Rust PDF interpreter — mirrored here and credited
+upstream in `pdfluent-sdk`'s own README.
+
+## Also available on
+
+- [Microsoft Store](https://apps.microsoft.com/detail/xpdbxj6xrlfqk2) — the editor, for Windows
+
+## Repositories
+
+| Repository | What's in it |
+|---|---|
+| [`pdfluent/pdfluent`](https://github.com/pdfluent/pdfluent) | The desktop editor (Tauri + React/TypeScript). Source-available. |
+| [`pdfluent/pdfluent-sdk`](https://github.com/pdfluent/pdfluent-sdk) | The PDF SDK itself — pure-Rust engine plus the Python, Node.js, .NET, Java, C, and WASM bindings. AGPL-3.0 or commercial. |
+| [`pdfluent/examples`](https://github.com/pdfluent/examples) | Runnable SDK examples in Rust, Python, Node.js, and a browser/WASM demo. |
+| [`pdfluent/hayro`](https://github.com/pdfluent/hayro) | Mirror of the upstream PDF interpreter the rendering path is built on. |
+| [`pdfluent/.github`](https://github.com/pdfluent/.github) | This profile, plus shared issue templates, contributing guide, and security policy. |
 
 ---
 
