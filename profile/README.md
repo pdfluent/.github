@@ -59,6 +59,7 @@ println!("{}", doc.extract_text()?);
 | SDK source | [`pdfluent/pdfluent-sdk`](https://github.com/pdfluent/pdfluent-sdk) |
 | Examples | [`pdfluent/examples`](https://github.com/pdfluent/examples): Rust, Python, Node.js, WASM |
 | SDK licence | AGPL-3.0, or a commercial licence sold yearly and self-service at [pdfluent.com/sdk/pricing](https://pdfluent.com/sdk/pricing) |
+| License | Editor: [pdfluent.com/license](https://pdfluent.com/license/) · SDK: [AGPL-3.0](https://github.com/pdfluent/pdfluent-sdk/blob/main/LICENSE) |
 | Changelog | [pdfluent.com/changelog](https://pdfluent.com/changelog) |
 
 The PDF rendering path builds on [`hayro`](https://github.com/pdfluent/hayro),
