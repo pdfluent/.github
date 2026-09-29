@@ -1,0 +1,13 @@
+# Org-wide default for public repositories without their own forms. Today that
+# is `examples`; `pdfluent-sdk` and `pdfluent` carry their own.
+blank_issues_enabled: false
+contact_links:
+  - name: Question about the SDK
+    url: https://github.com/pdfluent/pdfluent-sdk/discussions/categories/q-a
+    about: Ask SDK usage questions in the Q&A category of pdfluent/pdfluent-sdk Discussions.
+  - name: Question about the editor
+    url: https://github.com/pdfluent/pdfluent/discussions
+    about: For questions about the desktop editor, use the editor Discussions space in pdfluent/pdfluent.
+  - name: Security vulnerability
+    url: https://github.com/pdfluent/.github/blob/main/SECURITY.md
+    about: Report security problems by email to security@pdfluent.com. Do not open a public issue.

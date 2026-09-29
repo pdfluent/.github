@@ -5,6 +5,12 @@ Thanks for your interest in PDFluent.
 This is the default guide for PDFluent repositories. A repository that ships its
 own `CONTRIBUTING.md` overrides this one — read that one instead.
 
+## Asking a question
+
+Questions about the SDK go to [SDK Discussions](https://github.com/pdfluent/pdfluent-sdk/discussions/categories/q-a),
+questions about the editor to [editor Discussions](https://github.com/pdfluent/pdfluent/discussions).
+An issue is for something that is broken.
+
 ## Reporting bugs
 
 Open an issue in the repository the problem is in:

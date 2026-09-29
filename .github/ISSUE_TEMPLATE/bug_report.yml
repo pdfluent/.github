@@ -1,0 +1,49 @@
+name: Bug report
+description: An example does not run, or gives a wrong result.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form if one of our examples does not run or gives a wrong result; bugs in the SDK itself go to [the SDK repository's issue tracker](https://github.com/pdfluent/pdfluent-sdk/issues/new/choose).
+
+  - type: input
+    id: example
+    attributes:
+      label: Which example
+      placeholder: "rust/examples/redact_text.rs"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happens
+    attributes:
+      label: What happens
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Command and output
+      description: The command you ran and the full error or output.
+      render: shell
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: PDFluent version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: "macOS 15 arm64, Rust 1.94"
+    validations:
+      required: true
