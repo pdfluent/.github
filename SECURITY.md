@@ -23,4 +23,4 @@ We will acknowledge your report within 48 hours and aim to release a fix within 
 
 ## Scope
 
-This policy covers the PDFluent desktop application and the pdfluent.com website. Third-party dependencies are out of scope but we appreciate reports about vulnerable dependencies.
+This policy covers the PDFluent desktop application, the PDFluent SDK and its language bindings, the `pdfluent-mcp` server, and the pdfluent.com website. Third-party dependencies are out of scope but we appreciate reports about vulnerable dependencies.
