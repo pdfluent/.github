@@ -13,7 +13,7 @@
   <a href="https://pypi.org/project/pdfluent/"><img src="https://img.shields.io/pypi/v/pdfluent?label=PyPI&color=111111" alt="PyPI"/></a>
   <a href="https://www.npmjs.com/package/@pdfluent/node"><img src="https://img.shields.io/npm/v/%40pdfluent%2Fnode?label=npm&color=111111" alt="npm"/></a>
   <a href="https://www.nuget.org/packages/PDFluent"><img src="https://img.shields.io/nuget/v/PDFluent?label=NuGet&color=111111" alt="NuGet"/></a>
-  <a href="https://central.sonatype.com/artifact/com.pdfluent/pdfluent"><img src="https://img.shields.io/maven-central/v/com.pdfluent/pdfluent?label=Maven&color=111111" alt="Maven Central"/></a>
+  <a href="https://maven.pdfluent.com/"><img src="https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fmaven.pdfluent.com%2Fcom%2Fpdfluent%2Fpdfluent%2Fmaven-metadata.xml&label=Maven&color=111111" alt="Maven: maven.pdfluent.com"/></a>
   <br/>
   <a href="https://pdfluent.com/docs/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=badge_docs"><img src="https://img.shields.io/badge/docs-pdfluent.com-111111" alt="Documentation"/></a>
   <a href="https://github.com/pdfluent/pdfluent-sdk/discussions"><img src="https://img.shields.io/badge/discussions-ask%20a%20question-111111?logo=github" alt="GitHub Discussions"/></a>
@@ -21,7 +21,7 @@
   <a href="https://pdfluent.com/download/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=badge_download"><img src="https://img.shields.io/badge/editor-free%20download-111111" alt="Editor: free download"/></a>
 </p>
 
-The engine is written in Rust with no C or C++ dependencies. The editor is free for everyone, including commercial use, and the SDK is AGPL-3.0 or commercially licensed.
+The engine is written in Rust. The default SDK build has no system libraries to install and nothing to bundle. The editor is free for everyone, including commercial use, and the SDK is AGPL-3.0 or commercially licensed.
 
 ---
 
@@ -50,7 +50,7 @@ npm install @pdfluent/sdk-wasm      # Browser (WebAssembly)
 dotnet add package PDFluent         # .NET
 ```
 
-Java is `com.pdfluent:pdfluent` on Maven Central; C and C++ link against the C API.
+Java is `com.pdfluent:pdfluent`, served from [maven.pdfluent.com](https://maven.pdfluent.com/); C and C++ link against the C API.
 
 ```rust
 use pdfluent::prelude::*;
@@ -87,7 +87,7 @@ console.log(doc.extractText(0));
 | Merge, split, encryption | Production |
 | XFA form flattening | Experimental |
 
-→ [Documentation](https://pdfluent.com/docs/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=sdk_docs) · [Cookbook](https://pdfluent.com/cookbook/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=sdk_cookbook) · [Examples](https://github.com/pdfluent/examples) · [Source](https://github.com/pdfluent/pdfluent-sdk) · [Changelog](https://github.com/pdfluent/pdfluent-sdk/blob/main/CHANGELOG.md) · [Commercial licence](https://pdfluent.com/sdk/pricing/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=sdk_pricing) · [How we benchmark](https://pdfluent.com/benchmarks/how-we-measure/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=sdk_benchmarks)
+→ [Documentation](https://pdfluent.com/docs/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=sdk_docs) · [Cookbook](https://pdfluent.com/cookbook/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=sdk_cookbook) · [Examples](https://github.com/pdfluent/examples) · [Source](https://github.com/pdfluent/pdfluent-sdk) · [Changelog](https://github.com/pdfluent/pdfluent-sdk/blob/main/CHANGELOG.md) · [Commercial licence](https://pdfluent.com/sdk/pricing/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=sdk_pricing) · [MCP server](https://github.com/pdfluent/pdfluent-mcp) · [Benchmark harness](https://github.com/pdfluent/pdfluent-bench) · [How we benchmark](https://pdfluent.com/benchmarks/how-we-measure/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=sdk_benchmarks)
 
 ---
 
@@ -102,6 +102,7 @@ Ask questions in [GitHub Discussions](https://github.com/pdfluent/pdfluent-sdk/d
 | Show what you built | [Discussions → Show and tell](https://github.com/pdfluent/pdfluent-sdk/discussions/categories/show-and-tell) |
 | Suggest a feature | [Discussions → Ideas](https://github.com/pdfluent/pdfluent-sdk/discussions/categories/ideas) |
 | Report an SDK bug | [`pdfluent-sdk` issues](https://github.com/pdfluent/pdfluent-sdk/issues/new/choose) |
+| Report an MCP server bug | [`pdfluent-mcp` issues](https://github.com/pdfluent/pdfluent-mcp/issues/new) |
 | Report an editor bug | [`pdfluent` issues](https://github.com/pdfluent/pdfluent/issues/new/choose) |
 | Report a vulnerability | [security@pdfluent.com](mailto:security@pdfluent.com), see [SECURITY.md](https://github.com/pdfluent/.github/blob/main/SECURITY.md) |
 | Buy a commercial licence | [sales@pdfluent.com](mailto:sales@pdfluent.com) |
@@ -114,8 +115,10 @@ Ask questions in [GitHub Discussions](https://github.com/pdfluent/pdfluent-sdk/d
 |---|---|
 | [`pdfluent-sdk`](https://github.com/pdfluent/pdfluent-sdk) | The engine and every language binding. AGPL-3.0 or commercial. |
 | [`pdfluent`](https://github.com/pdfluent/pdfluent) | The desktop editor: Tauri, React and TypeScript. Source-available. |
+| [`pdfluent-mcp`](https://github.com/pdfluent/pdfluent-mcp) | An MCP server that lets Claude, Cursor, VS Code and other MCP clients read, search and fill local PDFs. `pip install pdfluent-mcp`. AGPL-3.0 or commercial. |
+| [`pdfluent-bench`](https://github.com/pdfluent/pdfluent-bench) | The benchmark harness, scorers, dataset manifests and per-run results behind our extraction numbers. AGPL-3.0 or commercial. |
 | [`examples`](https://github.com/pdfluent/examples) | Runnable SDK examples in Rust and the browser (WebAssembly). |
-| [`hayro`](https://github.com/pdfluent/hayro) | Mirror of Laurenz Stampfl's pure-Rust PDF interpreter, which the rendering path builds on. |
+| [`hayro`](https://github.com/pdfluent/hayro) | Mirror of Laurenz Stampfl's PDF interpreter and renderer in Rust, which the rendering path builds on. |
 | [`.github`](https://github.com/pdfluent/.github) | This page, and the default issue forms, contributing guide and security policy. |
 
 ---
