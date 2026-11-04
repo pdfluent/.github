@@ -23,6 +23,36 @@
 
 The engine is written in Rust with no C or C++ dependencies. The editor is free for everyone, including commercial use, and the SDK is AGPL-3.0 or commercially licensed.
 
+<table>
+<tr>
+<td width="33%" valign="top"><b>Extraction for AI</b><br/>PDF to Markdown with reading order, tables and headings kept. Scanned pages get read.</td>
+<td width="33%" valign="top"><b>One engine, every language</b><br/>Rust, Python, Node.js, .NET, Java, C and WebAssembly from the same code.</td>
+<td width="33%" valign="top"><b>Private by design</b><br/>Everything runs on your machine. The editor needs no account and works offline.</td>
+</tr>
+<tr>
+<td valign="top"><b>Forms, PDF/A, signatures</b><br/>AcroForm fill, PDF/A-1b/2b/3b, PAdES signatures, redaction that removes the content.</td>
+<td valign="top"><b>Public benchmarks</b><br/>The harness, scorers and per-run results are open: <a href="https://github.com/pdfluent/pdfluent-bench"><code>pdfluent-bench</code></a>.</td>
+<td valign="top"><b>For agents too</b><br/>An <a href="https://github.com/pdfluent/pdfluent-mcp">MCP server</a> that reads, searches and fills local PDFs.</td>
+</tr>
+</table>
+
+---
+
+## How it scores
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pdfluent/.github/main/profile/assets/odl-overall-dark.svg">
+    <img src="https://raw.githubusercontent.com/pdfluent/.github/main/profile/assets/odl-overall-light.svg" alt="opendataloader-bench overall score: PDFluent 1.3.0 auto 0.9168, opendataloader hybrid 0.907, nutrient 0.885, docling 0.882, marker 0.861, PDFluent 1.3.0 fast 0.8577" width="760"/>
+  </picture>
+</p>
+
+PDFluent 1.3.0 ranks above every engine on the published opendataloader-bench leaderboard (as of 3 November 2026)*.
+
+<sub>*Overall score 0.9168 (quality="auto", keep_furniture=True, Linux) against the engines listed in the benchmark README on 3 November 2026; submitted as pull request #37. Other engines have submissions open that are not yet on the leaderboard.</sub>
+
+→ [Full tables, all four measures and how to reproduce](https://pdfluent.com/benchmarks/opendataloader-bench?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=bench_chart)
+
 ---
 
 ## PDFluent Editor
@@ -114,6 +144,8 @@ Ask questions in [GitHub Discussions](https://github.com/pdfluent/pdfluent-sdk/d
 |---|---|
 | [`pdfluent-sdk`](https://github.com/pdfluent/pdfluent-sdk) | The engine and every language binding. AGPL-3.0 or commercial. |
 | [`pdfluent`](https://github.com/pdfluent/pdfluent) | The desktop editor: Tauri, React and TypeScript. Source-available. |
+| [`pdfluent-mcp`](https://github.com/pdfluent/pdfluent-mcp) | MCP server for local PDFs: read as Markdown, text, tables or blocks, search, fill forms. |
+| [`pdfluent-bench`](https://github.com/pdfluent/pdfluent-bench) | Benchmark harness for structured extraction: datasets by manifest, results per run. |
 | [`examples`](https://github.com/pdfluent/examples) | Runnable SDK examples in Rust and the browser (WebAssembly). |
 | [`hayro`](https://github.com/pdfluent/hayro) | Mirror of Laurenz Stampfl's pure-Rust PDF interpreter, which the rendering path builds on. |
 | [`.github`](https://github.com/pdfluent/.github) | This page, and the default issue forms, contributing guide and security policy. |
