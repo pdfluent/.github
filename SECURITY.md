@@ -6,7 +6,7 @@ If you discover a security vulnerability in PDFluent, please report it responsib
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
-Instead, email **security@pdfluent.com** with:
+Instead, email **hello@pdfluent.com** with:
 
 - A description of the vulnerability
 - Steps to reproduce

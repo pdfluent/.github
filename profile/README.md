@@ -123,7 +123,7 @@ console.log(doc.extractText(0));
 
 ## Community
 
-Ask questions in [GitHub Discussions](https://github.com/pdfluent/pdfluent-sdk/discussions), in the Q&A category. Report bugs in the issue tracker of the repository the problem is in. Report security problems by email to [security@pdfluent.com](mailto:security@pdfluent.com), never in a public issue.
+Ask questions in [GitHub Discussions](https://github.com/pdfluent/pdfluent-sdk/discussions), in the Q&A category. Report bugs in the issue tracker of the repository the problem is in. Report security problems by email to [hello@pdfluent.com](mailto:hello@pdfluent.com), never in a public issue.
 
 | You want to | Go to |
 |---|---|
@@ -133,8 +133,8 @@ Ask questions in [GitHub Discussions](https://github.com/pdfluent/pdfluent-sdk/d
 | Suggest a feature | [Discussions → Ideas](https://github.com/pdfluent/pdfluent-sdk/discussions/categories/ideas) |
 | Report an SDK bug | [`pdfluent-sdk` issues](https://github.com/pdfluent/pdfluent-sdk/issues/new/choose) |
 | Report an editor bug | [`pdfluent` issues](https://github.com/pdfluent/pdfluent/issues/new/choose) |
-| Report a vulnerability | [security@pdfluent.com](mailto:security@pdfluent.com), see [SECURITY.md](https://github.com/pdfluent/.github/blob/main/SECURITY.md) |
-| Buy a commercial licence | [sales@pdfluent.com](mailto:sales@pdfluent.com) |
+| Report a vulnerability | [hello@pdfluent.com](mailto:hello@pdfluent.com), see [SECURITY.md](https://github.com/pdfluent/.github/blob/main/SECURITY.md) |
+| Buy a commercial licence | [hello@pdfluent.com](mailto:hello@pdfluent.com) |
 
 ---
 

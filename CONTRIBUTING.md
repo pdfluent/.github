@@ -36,7 +36,7 @@ differs, and the SDK's is in the middle of a change; accepting code on standing
 terms now would fix terms that are not settled yet.
 
 So: open an issue describing the change you have in mind, or write to
-license@pdfluent.com, and we will sort out the arrangement before you start. If
+hello@pdfluent.com, and we will sort out the arrangement before you start. If
 a pull request lands without that conversation, it may have to be closed
 unmerged — which costs you the work, not us. That is the only reason this
 section is at the top of the process instead of the bottom.

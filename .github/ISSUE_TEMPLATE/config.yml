@@ -10,4 +10,4 @@ contact_links:
     about: For questions about the desktop editor, use the editor Discussions space in pdfluent/pdfluent.
   - name: Security vulnerability
     url: https://github.com/pdfluent/.github/blob/main/SECURITY.md
-    about: Report security problems by email to security@pdfluent.com. Do not open a public issue.
+    about: Report security problems by email to hello@pdfluent.com. Do not open a public issue.
