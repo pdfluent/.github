@@ -61,6 +61,8 @@ The editor is free for everyone, including commercial use, with no account and n
 
 **[Download for macOS and Windows](https://pdfluent.com/download/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=editor_download)** · [Microsoft Store](https://apps.microsoft.com/detail/xpdbxj6xrlfqk2) · [Source](https://github.com/pdfluent/pdfluent) · [Licence](https://pdfluent.com/license/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=editor_license)
 
+Step-by-step guides for editing, filling, signing and checking PDFs in the editor: [pdfluent.com/guides](https://pdfluent.com/guides/?utm_source=github&utm_medium=referral&utm_campaign=org_profile&utm_content=editor_guides).
+
 | Platform | Build |
 |---|---|
 | macOS | Universal binary (Apple Silicon and Intel), notarized |
